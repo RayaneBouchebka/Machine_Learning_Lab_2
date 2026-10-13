@@ -1,4 +1,4 @@
-import os
+ï»¿import os
 import time
 import numpy as np
 import matplotlib.pyplot as plt
@@ -200,10 +200,9 @@ def main():
     med_bwd = np.median(backward_times)
 
     print("\n--- Timing Breakdown (100 runs, W=64, batch=32) ---")
-    print(f"Median Forward Pass Time:  {med_fwd:.2f} µs")
-    print(f"Median Backward Pass Time: {med_bwd:.2f} µs")
+    print(f"Median Forward Pass Time:  {med_fwd:.2f} us")
+    print(f"Median Backward Pass Time: {med_bwd:.2f} us")
 
 
 if __name__ == "__main__":
     main()
-
